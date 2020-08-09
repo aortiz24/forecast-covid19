@@ -10,7 +10,7 @@ The general workflow is:
 
 •	`covid_prediction.py`: predicts the number of daily COVID-19 cases for the 10 days after July 26
 
-•	`covid_data_visualization.py`: shows the trend line for the original and predicted daily COVID-19 cases 
+•	`covid_data_visualization.py`: plots the original and predicted daily COVID-19 cases 
 
 This project analyzes time series data collected by Rearc and made publicly available on [Amazon Data Exchange](https://aws.amazon.com/marketplace/pp/prodview-jmb464qw2yg74?qid=1585594883027&sr=0-1&ref_=srh_res_product_title). Our data set spans from Februrary 12, 2020 to July 26, 2020.
 
