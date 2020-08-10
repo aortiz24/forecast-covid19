@@ -4,11 +4,13 @@ Scripts for creating a long short term memory (LSTM) model and performing a univ
 
 The general workflow is:
 
-•	`covid_data_prep.py`: convert the list of daily number COVID-19 cases into a 3 dimensional array
+•	`Data Preparation`: converts the list of daily number COVID-19 cases into a 3 dimensional array
 
-•	`covid_model.py`: builds and selects the LSTM model that best fits the COVID-19 time series data
+•	`Model Building`: builds the LSTM model
 
-•	`covid_prediction.py`: predicts the number of daily COVID-19 cases for the 10 days after July 26 
+•	`Model Training` & `Model Evaluation` : selects the LSTM model that best fits the COVID-19 time series data
+
+•	`Model Prediction`: predicts the number of daily COVID-19 cases for the 10 days after July 26, 2020 
 
 This project analyzes time series data collected by Rearc and made publicly available on [Amazon Data Exchange](https://aws.amazon.com/marketplace/pp/prodview-jmb464qw2yg74?qid=1585594883027&sr=0-1&ref_=srh_res_product_title). Our data set spans from Februrary 12, 2020 to July 26, 2020.
 
