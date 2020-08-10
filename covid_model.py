@@ -65,6 +65,6 @@ model.fit(X_train, epochs=30, verbose=1)
 #evaluate using test data set
 model.evaluate(x=X_test, verbose=1)
 
-#Model Prediction
+##Model Prediction
 #predict using numpy array of daily COVID-19 cases in Texas
 model.predict(x=X)
