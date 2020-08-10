@@ -24,7 +24,7 @@ def prepare_data(time_series_data, n_features):
 	return np.array(X), np.array(y)
 
 #define input sequence
-tx_cases = pd.read_csv("data/Texas_covid_data.csv", usecols=["cases"])
+tx_cases = pd.read_csv("Texas_covid_data.csv", usecols=["cases"])
 print(tx_cases)
 #indicate number of features
 n_steps = 3
