@@ -12,3 +12,6 @@ model.add(Dense(1))
 model.compile(optimizer='adam', loss='mse')
 # fit model
 model.fit(X, y, epochs=300, verbose=1)
+
+#Model prediction using numpy array of daily COVID-19 cases in Texas
+model.predict(x=X)
