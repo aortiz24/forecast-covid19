@@ -1,6 +1,6 @@
 # Team Python Fever battling COVID-19 with Machine Learning for Social Good
 
-The `covid_model.py` and the `wwc-hackathon.ipynb` both create a long short term memory (LSTM) model and performing a univariate time series analysis with Python, Amazon SageMaker, and other AWS technologies (Tensorflow & Keras).
+Scripts for creating a long short term memory (LSTM) model and performing a univariate time series analysis with Python, Amazon SageMaker, and other AWS technologies (Tensorflow & Keras).
 
 The general workflow is:
 
