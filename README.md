@@ -1,6 +1,6 @@
 # Using Machine Learning to battle COVID-19
 
-`covid_model.py` and `wwwc-hackathon.ipynb` create a long short term memory (LSTM) model and perform a univariate time series analysis with Python, Amazon SageMaker, and other AWS technologies (Tensorflow & Keras).
+`covid_model.py` creates a long short term memory (LSTM) model and performs a univariate time series analysis with Python, Amazon SageMaker, and other AWS technologies (Tensorflow & Keras).
 
 The general workflow is:
 
