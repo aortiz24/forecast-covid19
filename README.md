@@ -1,4 +1,4 @@
-# Team Python Fever battling COVID-19 with Machine Learning for Social Good
+# Using Machine Learning to battle COVID-19
 
 `covid_model.py` and `wwwc-hackathon.ipynb` create a long short term memory (LSTM) model and perform a univariate time series analysis with Python, Amazon SageMaker, and other AWS technologies (Tensorflow & Keras).
 
