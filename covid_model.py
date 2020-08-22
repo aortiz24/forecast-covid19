@@ -82,6 +82,7 @@ prediction = model.predict(x=X)
 #reverse normalization of prediction data
 predictions = scaler.inverse_transform(prediction)
 
+##Data Visualization
 #plot actual and predicted data
 plt.figure(figsize=(10,6))
 plt.plot(tx_cases, color='blue', label='Actual Daily COVID-19 Cases')
